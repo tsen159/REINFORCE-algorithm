@@ -1,0 +1,7 @@
+torch>=1.7.1
+numpy==1.25.2
+gym==0.17.3
+box2d-py
+tensorboard
+
+
