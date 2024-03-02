@@ -21,10 +21,10 @@ python reinforce.py --env [environment name]
 
 ![](CartPole-v1.png)
 
-### REINFORCE with baseline: LunarLander-v2 
+#### REINFORCE with baseline: LunarLander-v2 
 
 ![](LunarLander-v2_baseline.png)
 
-### REINFORCE woth GAE: LunarLander-v2
+#### REINFORCE with GAE: LunarLander-v2
 
 ![](LunarLander-v2_GAE.png)
