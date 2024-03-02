@@ -156,9 +156,9 @@ def train(args):
             break
 
 
-def test(args, nodel_name): 
+def test(args, model_name): 
     model = Policy(hid_dim=args.hid_dim).to(device)   
-    model.load_state_dict(torch.load(f"./models/{nodel_name}"))
+    model.load_state_dict(torch.load(f"./models/{model_name}"))
 
     max_episode_len = 10000
 
